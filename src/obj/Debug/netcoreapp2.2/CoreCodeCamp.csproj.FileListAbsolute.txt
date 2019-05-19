@@ -1,0 +1,14 @@
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\bin\Debug\netcoreapp2.2\CoreCodeCamp.deps.json
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\bin\Debug\netcoreapp2.2\CoreCodeCamp.runtimeconfig.json
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\bin\Debug\netcoreapp2.2\CoreCodeCamp.runtimeconfig.dev.json
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\bin\Debug\netcoreapp2.2\CoreCodeCamp.dll
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\bin\Debug\netcoreapp2.2\CoreCodeCamp.pdb
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.csprojAssemblyReference.cache
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.csproj.CoreCompileInputs.cache
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.RazorAssemblyInfo.cache
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.RazorAssemblyInfo.cs
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.AssemblyInfoInputs.cache
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.AssemblyInfo.cs
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.RazorTargetAssemblyInfo.cache
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.dll
+D:\Pluralsight Courses\Building an API with ASP.NET Core by Shawn Wildermuth\CODE\CoreApiFundamentals\src\obj\Debug\netcoreapp2.2\CoreCodeCamp.pdb
