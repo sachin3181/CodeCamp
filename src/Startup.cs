@@ -11,28 +11,35 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
+using AutoMapper;
 
 namespace CoreCodeCamp
 {
-  public class Startup
-  {
-    public void ConfigureServices(IServiceCollection services)
+    public class Startup
     {
-      services.AddDbContext<CampContext>();
-      services.AddScoped<ICampRepository, CampRepository>();
+        public void ConfigureServices(IServiceCollection services)
+        {
+            
+            services.AddDbContext<CampContext>();
+            services.AddScoped<ICampRepository, CampRepository>();
+            services.AddAutoMapper();
+            services.AddApiVersioning(opt =>
+            {
+                opt.DefaultApiVersion = new ApiVersion(1, 1);
+                opt.ReportApiVersions = true;
+            });
+            services.AddMvc(opt => opt.EnableEndpointRouting = false)
+              .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+        }
 
-      services.AddMvc()
-        .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-    }
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
 
-    public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-    {
-      if (env.IsDevelopment())
-      {
-        app.UseDeveloperExceptionPage();
-      }
-      
-      app.UseMvc();
+            app.UseMvc();
+        }
     }
-  }
 }
